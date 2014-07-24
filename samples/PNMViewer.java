@@ -18,7 +18,6 @@ public class PNMViewer extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         PNMRegistry.registerAllServicesProviders();
-        setResizable(true);
     }
 
     @SuppressWarnings("unchecked")
